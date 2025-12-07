@@ -1,0 +1,5 @@
+module corba {
+  interface UrgenceService {
+    long addUrgence(in string type, in string chambre, in string declarant);
+  };
+};
